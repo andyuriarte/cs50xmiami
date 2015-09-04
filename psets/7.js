@@ -13,4 +13,9 @@ fixStart('babble'): 'ba**le'
 
 function fixStart(s) {
   // write your solution here...
+  var str = s.replace([^\*].+,'*');
+  return console.log(str);
 }
+
+fixStart('Heeehhhhhhhh');
+

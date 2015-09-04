@@ -14,3 +14,24 @@ Create a function called calcArea:
 */
 
 // write your solution here...
+
+
+
+function calcCircumference (radius) {
+    var pi = Math.PI;
+    var circumference = radius * pi;
+
+    return console.log("The circumference is " + circumference);
+}
+
+function calcArea(radius) {
+    var pi = Math.PI;
+    var area = pi * (radius*radius);
+
+    return console.log("The area is " + area);
+}
+
+var radius = 5.0;
+
+calcCircumference(radius);
+calcArea(radius);

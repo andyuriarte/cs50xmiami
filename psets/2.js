@@ -11,4 +11,13 @@ Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no mo
 "You will need NN to last you until the ripe old age of X".
 */
 
-// write your solution here...
+// write your solution here..
+//
+
+var age = 18;
+var maxAge = 100;
+var amount = 20;
+
+var total = (maxAge - age) * amount;
+
+console.log("You will need " + amount + " to last you until the ripe old age of " + age);

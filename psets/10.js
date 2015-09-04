@@ -10,3 +10,16 @@ Write a function named tellFortune that:
 */
 
 // write your solution here...
+//
+
+function tellFortune(numChildren, pName, geo, title) {
+    return console.log("You will be a " + title + " in " + geo + ", and married to " + pName + " with " + numChildren + " kids.");
+
+}
+
+var numChildren = 12;
+var pName = "Michelle";
+var geo = "Miami";
+var title = "Hacker";
+
+tellFortune(numChildren, pName, geo, title);

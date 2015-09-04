@@ -10,3 +10,10 @@ Forgot how old someone is? Calculate it!
 */
 
 // write your solution here...
+
+var curYear = 2015;
+var bYear = 1987;
+var age1 = curYear - bYear;
+var age2 = bYear - curYear;
+
+console.log("They are either " + age1 + " or " + age2);
