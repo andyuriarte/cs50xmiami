@@ -18,4 +18,21 @@ For example:
 
 function verbing(word) {
   // write your solution here...
+  if (word.length >= 3)
+  {
+    if (word.indexOf('ing') !== -1)
+    {
+        console.log(word + 'ly');
+    }
+    else
+    {
+        console.log(word + 'ing');
+    }
+  }
+  else
+  {
+    return word;
+  }
 }
+
+verbing(process.argv[2]);
