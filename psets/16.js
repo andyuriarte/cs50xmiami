@@ -11,3 +11,22 @@ and log the result to make sure it works.
 */
 
 // write your solution here...
+function helloWorld(code)
+{
+    if (code === 'en')
+    {
+        console.log("Hello World");
+    }
+    else if (code === 'es')
+    {
+        console.log("Hola Mundo");
+    }
+    else if (code === 'pt')
+    {
+        console.log("Ola Mundo");
+    }
+}
+
+helloWorld('en');
+helloWorld('es');
+helloWorld('pt');
