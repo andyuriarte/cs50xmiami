@@ -17,4 +17,22 @@ For example:
 
 function notBad(sentence) {
   // write your solution here...
+  var index = sentence.indexOf('not');
+  var index2 = sentence.indexOf('bad');
+
+  if (index !== -1 && index2 != -1) {
+    if (index < index2) {
+        var res = sentence.slice(0, index);
+         console.log(res + 'good!');
+    }
+    else {
+        console.log(sentence);
+    }
+  }
+  else
+  {
+    console.log(sentence);
+  }
 }
+
+notBad(process.argv[2]);
