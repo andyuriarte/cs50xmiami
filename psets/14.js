@@ -14,5 +14,20 @@ Create a function called fahrenheitToCelsius:
 */
 
 // write your solution here...
+function celsiusToFahrenheit(temp) {
+    var celsius = temp;
+    var fahrenheit = ((temp*9)/5) + 32;
 
+    return console.log(temp + '°C' + ' is ' + fahrenheit + '°F');
+}
 
+celsiusToFahrenheit(32);
+
+function fahrenheitToCelsius(temp) {
+    var fahrenheit = temp;
+    var celsius = ((fahrenheit -32) * 5) / 9;
+
+    return console.log(temp + '°F' + ' is ' + celsius + '°C');
+}
+
+fahrenheitToCelsius(89.6);
